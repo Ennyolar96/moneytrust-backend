@@ -1,0 +1,118 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Our Community!</title>
+    <style type="text/css">
+      /* Client-specific reset */ #outlook a { padding: 0; } body { width: 100%
+      !important; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+      margin: 0; padding: 0; } .ExternalClass { width: 100%; } .ExternalClass,
+      .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass
+      td, .ExternalClass div { line-height: 100%; } /* Responsive layout */
+      @media only screen and (max-width: 600px) { table[class="container"] {
+      width: 100% !important; } td[class="container"] { width: 100% !important;
+      } } /* Basic resets and typography */ body, table, td, a {
+      -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } img {
+      max-width: 100%; height: auto; border: 0; line-height: 100%; outline:
+      none; text-decoration: none; } table { border-collapse: collapse
+      !important; } body { font-family: "Helvetica Neue", Helvetica, Arial,
+      sans-serif; line-height: 1.6; color: #333; background-color: #f4f4f4; }
+      .step-number { font-weight: bold; color: #3498db; margin-right: 10px; }
+    </style>
+  </head>
+  <body>
+    <table
+      role="presentation"
+      width="100%"
+      cellspacing="0"
+      cellpadding="0"
+      border="0"
+      bgcolor="#f4f4f4"
+    >
+      <tr>
+        <td align="center" style="padding: 20px 0">
+          <table
+            role="presentation"
+            width="600"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            bgcolor="#ffffff"
+            style="
+              border-radius: 12px;
+              box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <tr>
+              <td align="" style="padding: 40px 30px">
+                <h1
+                  style="color: #2c3e50; margin-bottom: 20px; font-size: 28px"
+                >
+                  Welcome,
+                  {{username}}! 🎉
+                </h1>
+
+                <p style="color: #34495e; margin-bottom: 30px; font-size: 16px">
+                  We're thrilled to have you join our community! Your adventure
+                  starts right here, right now. 🚀
+                </p>
+
+                <p style="color: #34495e; margin-bottom: 30px; font-size: 16px">
+                  Before we dive in, we need to make sure this is really you.
+                  Could you do us a quick favor and verify your email address?
+                  It'll only take a moment!
+                </p>
+
+                <table
+                  role="presentation"
+                  cellspacing="0"
+                  cellpadding="0"
+                  border="0"
+                  align="center"
+                >
+                  <tr>
+                    <td align="center" style="font-size: 20px">
+                      <p>{{token}}</p>
+                    </td>
+                  </tr>
+                </table>
+
+                <p
+                  style="
+                    color: #e74c3c;
+                    text-align: center;
+                    font-size: 14px;
+                    margin-bottom: 20px;
+                    font-weight: bold;
+                  "
+                >
+                  ⏰ Verification token expires in 30 minutes
+                </p>
+
+                <p style="color: #7f8c8d; font-size: 12px; margin-top: 20px">
+                  If you didn't create an account, please ignore this email. 😊
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <table
+            role="presentation"
+            width="600"
+            cellspacing="0"
+            cellpadding="0"
+            border="0"
+            style="margin-top: 20px"
+          >
+            <tr>
+              <td align="center" style="color: #95a5a6; font-size: 12px">
+                ©
+                {{currentYear}}
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
