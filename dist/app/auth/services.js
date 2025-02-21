@@ -37,11 +37,11 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AuthServices = void 0;
-const helpers_1 = require("@/global/helpers");
+const helpers_1 = require("../../global/helpers");
 const argon = __importStar(require("argon2"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
-const model_1 = require("@/global/model");
-const mail_1 = require("@/global/mail");
+const model_1 = require("../../global/model");
+const mail_1 = require("../../global/mail");
 class AuthServices {
     async signin(data) {
         try {

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.User = void 0;
-const entity_1 = require("@/app/auth/entity");
+const entity_1 = require("../../app/auth/entity");
 const mongoose_1 = require("mongoose");
 const model_factory_1 = require("./model.factory");
 const userSchema = new mongoose_1.Schema({
